@@ -1,0 +1,17 @@
+C:\Users\Omega\Desktop\PhoneContacts\PhoneContacts\obj\Debug\net8.0\PhoneContacts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Omega\Desktop\PhoneContacts\PhoneContacts\obj\Debug\net8.0\PhoneContacts.AssemblyInfoInputs.cache
+C:\Users\Omega\Desktop\PhoneContacts\PhoneContacts\obj\Debug\net8.0\PhoneContacts.AssemblyInfo.cs
+C:\Users\Omega\Desktop\PhoneContacts\PhoneContacts\obj\Debug\net8.0\PhoneContacts.csproj.CoreCompileInputs.cache
+C:\Users\Omega\Desktop\PhoneContacts\PhoneContacts\obj\Debug\net8.0\PhoneContacts.csproj.AssemblyReference.cache
+C:\Users\Omega\Desktop\PhoneContacts\PhoneContacts\bin\Debug\net8.0\PhoneContacts.exe
+C:\Users\Omega\Desktop\PhoneContacts\PhoneContacts\bin\Debug\net8.0\PhoneContacts.deps.json
+C:\Users\Omega\Desktop\PhoneContacts\PhoneContacts\bin\Debug\net8.0\PhoneContacts.runtimeconfig.json
+C:\Users\Omega\Desktop\PhoneContacts\PhoneContacts\bin\Debug\net8.0\PhoneContacts.dll
+C:\Users\Omega\Desktop\PhoneContacts\PhoneContacts\bin\Debug\net8.0\PhoneContacts.pdb
+C:\Users\Omega\Desktop\PhoneContacts\PhoneContacts\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Omega\Desktop\PhoneContacts\PhoneContacts\obj\Debug\net8.0\PhoneCon.3CB5600F.Up2Date
+C:\Users\Omega\Desktop\PhoneContacts\PhoneContacts\obj\Debug\net8.0\PhoneContacts.dll
+C:\Users\Omega\Desktop\PhoneContacts\PhoneContacts\obj\Debug\net8.0\refint\PhoneContacts.dll
+C:\Users\Omega\Desktop\PhoneContacts\PhoneContacts\obj\Debug\net8.0\PhoneContacts.pdb
+C:\Users\Omega\Desktop\PhoneContacts\PhoneContacts\obj\Debug\net8.0\PhoneContacts.genruntimeconfig.cache
+C:\Users\Omega\Desktop\PhoneContacts\PhoneContacts\obj\Debug\net8.0\ref\PhoneContacts.dll
