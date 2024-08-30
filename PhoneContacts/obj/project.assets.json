@@ -60,11 +60,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Omega\\Desktop\\PhoneContacts\\PhoneContacts\\PhoneContacts.csproj",
+      "projectUniqueName": "C:\\Users\\Omega\\Documents\\GitHub\\PhoneContacts\\PhoneContacts\\PhoneContacts.csproj",
       "projectName": "PhoneContacts",
-      "projectPath": "C:\\Users\\Omega\\Desktop\\PhoneContacts\\PhoneContacts\\PhoneContacts.csproj",
+      "projectPath": "C:\\Users\\Omega\\Documents\\GitHub\\PhoneContacts\\PhoneContacts\\PhoneContacts.csproj",
       "packagesPath": "C:\\Users\\Omega\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Omega\\Desktop\\PhoneContacts\\PhoneContacts\\obj\\",
+      "outputPath": "C:\\Users\\Omega\\Documents\\GitHub\\PhoneContacts\\PhoneContacts\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Omega\\AppData\\Roaming\\NuGet\\NuGet.Config"

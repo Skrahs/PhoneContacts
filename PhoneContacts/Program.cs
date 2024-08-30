@@ -8,56 +8,56 @@ namespace PhoneContacts
     {
         static void Main(string[] args)
         {
-            Rubrica rubrica = new Rubrica();
-            string filePath = "rubrica.json";
+            AddressBook addressBook = new AddressBook();
+            string filePath = "addressBook.json";
 
-            Console.WriteLine("Gestione Rubrica Telefonica");
-            Console.WriteLine("1. Aggiungi contatto");
-            Console.WriteLine("2. Visualizza contatti");
-            Console.WriteLine("3. Cerca contatto");
-            Console.WriteLine("4. Elimina contatto");
-            Console.WriteLine("5. Modifica contatto");
-            Console.WriteLine("6. Salva su file");
-            Console.WriteLine("7. Carica da file");
-            Console.WriteLine("8. Esci");
+            Console.WriteLine("Address Book Management");
+            Console.WriteLine("1. Add contact");
+            Console.WriteLine("2. Display contacts");
+            Console.WriteLine("3. Search contact");
+            Console.WriteLine("4. Delete contact");
+            Console.WriteLine("5. Edit contact");
+            Console.WriteLine("6. Save to file");
+            Console.WriteLine("7. Load from file");
+            Console.WriteLine("8. Exit");
 
             bool running = true;
             while (running)
             {
-                Console.Write("Scegli un'opzione (1-8): ");
-                var scelta = Console.ReadLine();
+                Console.Write("Choose an option (1-8): ");
+                var choice = Console.ReadLine();
 
-                switch (scelta)
+                switch (choice)
                 {
                     case "1":
-                        rubrica.AggiungiContatto();
+                        addressBook.AddContact();
                         break;
                     case "2":
-                        rubrica.VisualizzaContatti();
+                        addressBook.DisplayContacts();
                         break;
                     case "3":
-                        rubrica.CercaContatto();
+                        addressBook.SearchContact();
                         break;
                     case "4":
-                        rubrica.EliminaContatto();
+                        addressBook.DeleteContact();
                         break;
                     case "5":
-                        rubrica.ModificaContatto();
+                        addressBook.EditContact();
                         break;
                     case "6":
-                        GestioneFile.SalvaRubricaSuFile(rubrica, filePath);
-                        Console.WriteLine("Rubrica salvata su file.");
+                        FileManagement.SaveAddressBookToFile(addressBook, filePath);
+                        Console.WriteLine("Address book saved to file.");
                         break;
                     case "7":
-                        rubrica = GestioneFile.CaricaRubricaDaFile(filePath);
-                        Console.WriteLine("Rubrica caricata da file.");
+                        addressBook = FileManagement.LoadAddressBookFromFile(filePath);
+                        Console.WriteLine("Address book loaded from file.");
                         break;
                     case "8":
                         running = false;
-                        Console.WriteLine("Uscita...");
+                        Console.WriteLine("Exiting...");
                         break;
                     default:
-                        Console.WriteLine("Opzione non valida.");
+                        Console.WriteLine("Invalid option.");
                         break;
                 }
             }
